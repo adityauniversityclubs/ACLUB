@@ -1,0 +1,96 @@
+name: aclub
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts:
+  flutter_settings_ui:
+  device_preview:
+  flutter_screenutil: 
+  flutter_animate:
+  curved_navigation_bar:
+  cupertino_icons:
+  flutter_svg:
+  carousel_slider: ^5.0.0
+  smooth_page_indicator:
+  http:
+  shared_preferences:
+  google_sign_in:
+  flutter_local_notifications:
+  intl:
+  lottie:
+  animations:
+  provider:
+  url_launcher:
+  share_plus:
+  image_picker: 
+  emoji_picker_flutter: 
+  iconsax: 
+  firebase_core: 
+  firebase_storage:
+  cloud_firestore:
+  shimmer: 
+  
+
+
+
+dev_dependencies:
+  flutter_launcher_icons:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/ACLUB.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/logo/ACLUB.png"
+    background_color: "#FF5733"
+    theme_color: "#C70039"
+  windows:
+    generate: true
+    image_path: "assets/logo/ACLUB.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/logo/ACLUB.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo/
+    - assets/files/
+    - assets/logo/forgot.gif 
+    - assets/Pdf.jpg
+    - assets/NSS.png
+    - assets/RED.jpg
+    - assets/ROT.png
+    - assets/boy.png
+    - assets/SAC.jpg   
+    - assets/logo/sending.gif
+    - assets/logo/ACLUB.png
+    - assets/ACLUB_1.gif
+    - assets/ob/ob1.jpg
+    - assets/ob/ob2.jpg
+    - assets/ob/ob3.jpg
+    - assets/ob/ob4.jpg
+    - assets/ob/ob5.jpg
+    - assets/clublogo/SAC.png
+    - assets/clublogo/LEO.png
+    - assets/clublogo/GDG.png
+    - assets/clublogo/ROT.png
+    - assets/clublogo/RED.png
+    - assets/clublogo/NSS.png
+    - assets/AT.png
+    - assets/GDG.jpg
+    # - assets/ACLUB.png
